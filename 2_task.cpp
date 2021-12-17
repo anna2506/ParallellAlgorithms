@@ -69,7 +69,7 @@ int main(int argc, char** argv){
         printf("i-j-k order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
     cout << endl;
     sum_time = 0;
@@ -93,7 +93,7 @@ int main(int argc, char** argv){
         printf("i-k-j order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
         cout << endl;
         sum_time = 0;
@@ -117,7 +117,7 @@ int main(int argc, char** argv){
         printf("j-k-i order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
         cout << endl;
         sum_time = 0;
@@ -141,7 +141,7 @@ int main(int argc, char** argv){
         printf("j-i-k order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
         cout << endl;
         sum_time = 0;
@@ -165,7 +165,7 @@ int main(int argc, char** argv){
         printf("k-i-j order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
         cout << endl;
         sum_time = 0;
@@ -189,7 +189,7 @@ int main(int argc, char** argv){
         printf("k-j-i order");
         cout << endl;
         for (int i = 0; i < 10; i++){
-            printf("Number of threads: %d, Time (in microseconds): %lld, Efiiciency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
+            printf("Number of threads: %d, Time (in microseconds): %lld, Efficiency: %f\n", i + 1, time_array[i], float(time_array[i])/float(sum_time));
         }
     }
     else if (argc == 2){

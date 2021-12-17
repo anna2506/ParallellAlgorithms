@@ -1,5 +1,5 @@
 
-   
+
 #include <iostream>
 #include<string.h>
 
@@ -15,7 +15,6 @@ int main(int argc, char** argv)
           if (!(isspace(argv[1][0]) || argv[1][0] == '\n')){
              numWords++;
           }
-          cout << strlen(argv[1]) << endl; 
           for(int i = 1; i < strlen(argv[1]); i++){
              if (
                 // hceck if symbol is space or newline
@@ -27,7 +26,7 @@ int main(int argc, char** argv)
                 numWords++;
              } 
           };
-             printf("Number of words in %s = %d\n", argv[1], numWords); // printing number of words
+             printf("Number of words = %d\n", numWords); // printing number of words
        }
        else
       {

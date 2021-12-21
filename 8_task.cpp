@@ -48,8 +48,8 @@ int main(int argc, char **argv)
             }
             time_finish = MPI_Wtime();
             // calculating all the values
-            T = (time_finish - time_start) * 1000000;
-	        R = 2 * L * 10 / T / 1024;
+            T = (time_finish - time_start);
+	        R = 2 * L * 10 / T / 1024 / 1024;
             s = T / 2 / 10;
             cout << "Time taken to send and receive message (seconds) = "  << (time_finish - time_start)*1000;
             cout << " Message length = " << length;
